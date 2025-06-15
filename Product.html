@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Styling category</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      
+      background-image: 
+    linear-gradient(to right, rgba(28, 28, 28, 0.7), rgba(44, 44, 44, 0.7)),
+    url("WhatsApp Image 2025-06-15 at 12.22.26.jpeg");
+  background-size: contain; /* or try 100% auto */
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .product-item {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .product-item:hover {
+      transform: scale(1.05);
+    }
+
+    .product-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #000;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Street Will Go - Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+      <a href="about us.html">About</a>
+     
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-grid">
+      <div class="product-item">
+        <img src="white sterr wear.jpeg" alt="Street Shirt">
+        <p>R250</p>
+      </div>
+      <div class="product-item">
+        <img src="kylie steet.webp" alt="Tight wear">
+        <p>R400</p>
+      </div>
+      <div class="product-item">
+        <img src="london-fashion-week-.jpg" alt="Shirt with jeans">
+        <p>R700</p>
+      </div>
+      <div class="product-item">
+        <img src="WhatsApp Image 2025-06-15 at 12.22.26 (1).jpeg" alt="Look">
+        <p>R900</p>
+      </div>
+      <div class="product-item">
+        <img src="WhatsApp Image 2025-06-15 at 12.22.26.jpeg" alt="Look">
+        <p>R400</p>
+      </div>
+      <div class="product-item">
+        <img src="WhatsApp Image 2025-06-15 at 12.22.26 (4).jpeg" alt="Look">
+        <p>R300</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Street Will Go. All rights reserved.</p>
+  </footer>
+</body>
+</html>

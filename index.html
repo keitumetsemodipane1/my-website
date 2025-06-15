@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>kaystreetwear | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      background-image: url("grey.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+    }
+
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid white;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .fashion h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .fashion p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .featured-products h3 {
+      font-size: 1.8rem;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .product-preview {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .product-preview img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .product-preview img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    /* Contact Section */
+    #contact {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 50px 20px;
+      margin-top: 60px;
+      border-top: 1px solid #444;
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    #contact p, #contact a {
+      font-size: 1rem;
+      color: white;
+      margin: 10px 0;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #999;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>kaystreetwear</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Styling Categories</a>
+      <a href="about us.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="fashion">
+      <h2>Your Ultimate Streetwear Plug</h2>
+      <p>Fusing local flavor with bold designs. Dress the street. Own the look.</p>
+    </section>
+
+    <section class="featured-products">
+      <h3>🔥 Featured Drops</h3>
+      <div class="product-preview">
+        <img src="WhatsApp Image 2025-06-15 at 12.22.27.jpeg" alt="Look 1">
+        <img src="KIM K JEAN.webp" alt="Look 2">
+        <img src="KIM WHITE.jpeg" alt="Look 3">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>📍 Johannesburg, South Africa</p>
+      <p>📧 <a href="mailto:kaystreetwear@gmail.com">kaystreetwear@gmail.com</a></p>
+      <p>📱 <a href="https://wa.me/27760000000" target="_blank">+27 76 567 890</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 kaystreetwear. All rights reserved.</p>
+  </footer>
+</body>
+</html>
